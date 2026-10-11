@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { getSupabase, getAdminSupabase } from "@/lib/supabase";
+import { getSupabase, getAdminSupabase } from "../../../lib/supabase";
 
 const OPEN_HOUR = 8;
 const CLOSE_HOUR = 22;
